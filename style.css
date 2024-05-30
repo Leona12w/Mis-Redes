@@ -1,0 +1,65 @@
+body {
+    background-image: url('Fondo\ \(2\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    border: 2px solid pink; /* Cambiado a un tono de rosa */
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    font-size: 24px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    background-color: rgb(255, 218, 230); /* Cambiado a un tono de rosa claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+button {
+    background-color: pink; /* Cambiado a un tono de rosa */
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid pink; /* Cambiado a un tono de rosa */
+    margin: 10px 0;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor {
+        width: 80%;
+        max-width: 600px;
+        background-color: rgb(255, 218, 230); /* Cambiado a un tono de rosa claro */
+        border-radius: 10px;
+    }
+}
