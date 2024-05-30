@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     margin: 0;
     height: 100vh;
-    color: rgb(0, 0, 0);
+    color: rgb(40, 40, 40); /* Color de texto gris oscuro */
     font-weight: bold;
 }
 
@@ -17,35 +17,41 @@ body {
 }
 
 .titulo {
-    border: 2px solid pink; /* Cambiado a un tono de rosa */
+    border: 2px solid rgba(40, 40, 40, 0.2); /* Borde más suave */
     padding: 10px; 
     border-radius: 10px; 
     margin-bottom: 20px; 
     font-size: 24px; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
-    background-color: rgb(255, 218, 230); /* Cambiado a un tono de rosa claro */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    background-color: rgb(245, 223, 235); /* Color de fondo más suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 button {
-    background-color: pink; /* Cambiado a un tono de rosa */
+    background-color: rgb(255, 200, 220); /* Color de fondo más suave */
     border: none;
     padding: 10px 20px;
     margin: 10px 0;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra más ligera */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+button:hover {
+    background-color: rgb(255, 150, 170); /* Cambio de color al pasar el cursor */
 }
 
 button a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); /* Color de texto blanco */
     font-weight: bold;
 }
 
 hr {
     width: 100%;
-    border: 1px solid pink; /* Cambiado a un tono de rosa */
+    border: 1px solid rgba(40, 40, 40, 0.2); /* Borde de línea más suave */
     margin: 10px 0;
 }
 
@@ -59,7 +65,8 @@ hr {
     .contenedor {
         width: 80%;
         max-width: 600px;
-        background-color: rgb(255, 218, 230); /* Cambiado a un tono de rosa claro */
+        background-color: rgb(245, 223, 235); /* Color de fondo más suave */
         border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
     }
 }
