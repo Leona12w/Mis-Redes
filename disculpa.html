@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disculpa</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        .message-container {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+
+        .message-container h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .message-container p {
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .whatsapp-link {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            background: rgba(0, 255, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .whatsapp-link:hover {
+            background: rgba(0, 255, 0, 0.9);
+        }
+
+        /* Ajustes para pantallas pequeñas (smartphones) */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+                height: auto;
+            }
+
+            .message-container {
+                max-width: 90%;
+                padding: 15px;
+            }
+
+            .message-container h1 {
+                font-size: 1.8rem;
+            }
+
+            .message-container p {
+                font-size: 1rem;
+            }
+
+            .whatsapp-link {
+                font-size: 0.9rem;
+                padding: 10px 15px;
+            }
+        }
+
+        /* Ajustes para pantallas extra pequeñas (menos de 480px) */
+        @media (max-width: 480px) {
+            .message-container h1 {
+                font-size: 1.5rem;
+            }
+
+            .message-container p {
+                font-size: 0.9rem;
+                line-height: 1.4;
+            }
+
+            .whatsapp-link {
+                font-size: 0.8rem;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        <h1>Lo siento mucho</h1>
+        <p>Quiero tomarme un momento para disculparme sinceramente. Reconozco que me equivoqué y que mis palabras y acciones no fueron las adecuadas. Nunca fue mi intención lastimarte o incomodarte, y lamento mucho haberlo hecho.</p>
+        <p>He reflexionado sobre lo sucedido y entiendo el impacto que pudo haber tenido en ti. Lo último que deseo es poner en riesgo nuestra relación, porque realmente valoro lo que tenemos.</p>
+        <p>Quiero que sepas que estoy comprometido a aprender de este error y a no repetirlo. Estoy dispuesto a escucharte, entender cómo te sientes y buscar la manera de reparar el daño.</p>
+        <p>Gracias por tu paciencia y por darme la oportunidad de expresarme. Espero que podamos resolver esto juntos.</p>
+        <a href="https://wa.me/51968237345?text=Hola,%20le%C3%AD%20tu%20mensaje%20y%20quiero%20hablar%20contigo." class="whatsapp-link">
+            ¡Apreta aqui! Estaré esperando tu mensaje
+        </a>
+    </div>
+</body>
+</html>
